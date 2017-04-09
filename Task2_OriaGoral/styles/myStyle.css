@@ -1,0 +1,133 @@
+body 
+{
+    direction:rtl;
+}
+#container
+{
+    width: 960px;
+    margin:0 auto;
+    padding: 30px 30px 600px 30px;
+    background-image:url("../images/10.jpg")  ;
+    background-position: center;
+
+    /*text-align:center;*/
+    background-color:aquamarine;
+    color:white;
+}
+
+.lists
+{
+    list-style-type:none;
+}
+h1
+{
+    font-size: 50px;
+    color:cyan;
+    text-align:center;
+    display:block;
+}
+h2
+{
+font-size: 40px;
+}
+h2:hover 
+{
+    font-size:60px;
+    font-weight:bold;
+    color:aquamarine;
+}
+
+
+#employment
+{
+   display:inline-block;
+   width:300px;
+   height: 50px;
+   position:absolute;
+   margin: 300px 100px 300px 680px;
+}
+
+
+
+
+
+#education
+{
+   display:inline-block;
+   width:300px;
+   height: 50px;
+   position:absolute;
+   margin: 100px 100px 300px 680px;
+}
+
+
+
+
+
+#contact 
+{
+   display:inline-block;
+   width:300px;
+   height: 50px;
+   position:absolute;
+   margin: 300px 660px 300px 0px;
+}
+ #email
+{
+    background-image:url(../images/7mail.jpg);
+    width:40px;
+    height:40px;
+    display:inline-block;
+
+-webkit-transition: all 1ms ease;
+-moz-transition: all 1ms ease;
+-ms-transition: all 1ms ease;
+-o-transition: all 1ms ease;
+transition: all 1ms ease;
+}
+ #email:hover
+ {
+     background-position:right;
+ }
+
+
+  #facebook
+{
+    background-image:url(../images/2facebook.jpg);
+    width:40px;
+    height:40px;
+    display:inline-block;
+
+    -webkit-transition: all 1ms ease;
+-moz-transition: all 1ms ease;
+-ms-transition: all 1ms ease;
+-o-transition: all 1ms ease;
+transition: all 1ms ease;
+}
+   #facebook:hover
+ {
+     background-position:right;
+ }
+
+
+
+
+
+
+#hobbies 
+{
+   display:inline-block;
+   width:300px;
+   height: 50px;
+   position:absolute;
+   margin: 100px 660px 300px 0px;
+}
+#hobbies ul
+{
+list-style-type:none;
+}
+
+
+
+
+
