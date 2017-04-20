@@ -22,7 +22,10 @@ h1
     margin:auto;
 }
 
-
+#breadCrumbs{
+        margin-right: 384px;
+    margin-top: 4px;
+}
 
 
 #breadCrumbs ul li
@@ -34,31 +37,38 @@ h1
 }
 #breadCrumbs ul li:after
 {
-    content:"<";
+    content:">";
 }
 #breadCrumbs ul li:last-child:after
 {
     content:"";
 }
 
-
-
-
-
-
-#frontPage{
-    clear:both;    
-    margin-top:0px; 
+#indexnav
+{
+    margin-top:20px;
 }
-#frontPage ul {
+
+
+.box
+{
+        margin-top: 200px;
+}
+
+.frontPage{
+    clear:both;    
+    margin-top:0px;
+    position: absolute; 
+}
+.frontPage ul {
 list-style: none;
 }
-#frontPage ul li 
+.frontPage ul li 
 {
 display: block;
 width: 120px;
 }
-#frontPage ul li a 
+.frontPage ul li a 
 {
 display: block;
 background-color:steelblue;
@@ -71,14 +81,19 @@ height: 40px;
 Padding-top:6px;
 margin-top:2px; 
 }
-#frontPage ul li a:hover 
+.frontPage ul li a:hover 
 {
 background-color:darkolivegreen;
 }
-#frontPage ul li a:active 
+.frontPage ul li a:active 
 {
 background-color:navy;
 }
+.frontPage .Active
+{
+background-color:navy;
+}
+
 
 #hobbies>ul
 {
@@ -95,6 +110,7 @@ background-color:navy;
    /*height:110px;*/
    background-color:blanchedalmond;
    margin:30px 200px;
+   margin-top: 200px; 
    padding:10px;
    text-align:center;
 }
@@ -105,6 +121,7 @@ background-color:navy;
     width:40px;
     height:40px;
     display:inline-block;
+    background-position:right;
 
 -webkit-transition: all 1ms ease;
 -moz-transition: all 1ms ease;
@@ -114,7 +131,7 @@ transition: all 1ms ease;
 }
  #email:hover
  {
-     background-position:right;
+     background-position:left;
  }
 
 
@@ -124,6 +141,7 @@ transition: all 1ms ease;
     width:40px;
     height:40px;
     display:inline-block;
+    background-position:right;
 
     -webkit-transition: all 1ms ease;
 -moz-transition: all 1ms ease;
@@ -133,184 +151,6 @@ transition: all 1ms ease;
 }
    #facebook:hover
  {
-     background-position:right;
+     background-position:left;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#frontPage ul li ul 
-{
-display: none;
-position: absolute;
-}
-
-#frontPage ul li:hover ul 
-{
-display: block;
-margin-right:120px;
-margin-top:-40px;
-}
-
-#frontPage ul li:hover ul li 
-{
-display: inline-block;
-float:right;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.lists
-{
-    list-style-type:none;
-}
-h1
-{
-    font-size: 50px;
-    color:cyan;
-    text-align:center;
-    display:block;
-}
-h2
-{
-font-size: 40px;
-}
-h2:hover 
-{
-    font-size:60px;
-    font-weight:bold;
-    color:aquamarine;
-}
-
-
-#employment
-{
-   display:inline-block;
-   width:300px;
-   height: 50px;
-   position:absolute;
-   margin: 300px 100px 300px 680px;
-}
-
-
-
-
-
-#education
-{
-   display:inline-block;
-   width:300px;
-   height: 50px;
-   position:absolute;
-   margin: 100px 100px 300px 680px;
-}
-
-
-
-
-
-#contact 
-{
-   display:inline-block;
-   width:300px;
-   height: 50px;
-   position:absolute;
-   margin: 300px 660px 300px 0px;
-}
- #email
-{
-    background-image:url(../images/7mail.jpg);
-    width:40px;
-    height:40px;
-    display:inline-block;
-
--webkit-transition: all 1ms ease;
--moz-transition: all 1ms ease;
--ms-transition: all 1ms ease;
--o-transition: all 1ms ease;
-transition: all 1ms ease;
-}
- #email:hover
- {
-     background-position:right;
- }
-
-
-  #facebook
-{
-    background-image:url(../images/2facebook.jpg);
-    width:40px;
-    height:40px;
-    display:inline-block;
-
-    -webkit-transition: all 1ms ease;
--moz-transition: all 1ms ease;
--ms-transition: all 1ms ease;
--o-transition: all 1ms ease;
-transition: all 1ms ease;
-}
-   #facebook:hover
- {
-     background-position:right;
- }
-
-
-
-
-
-
-/*#hobbies 
-{
-   display:inline-block;
-   width:300px;
-   height: 50px;
-   position:absolute;
-   margin: 100px 660px 300px 0px;
-}
-#hobbies ul
-{
-list-style-type:none;
-}*/*/
-
-
-
-
 
