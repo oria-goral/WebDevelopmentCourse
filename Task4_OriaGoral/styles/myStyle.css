@@ -1,0 +1,192 @@
+body 
+{
+    direction:rtl;
+    color:white;
+}
+#container{
+width:960px;
+margin:auto;
+background-color:rgb(138, 136, 131);
+}
+aside
+{
+    border: 2PX solid #55beaf;
+    margin:10px 10px 10px 10px;
+    padding:10px;
+}
+article 
+{
+    border: 2PX solid #55beaf;
+    padding:10px;
+}
+
+header
+{
+    display:block;
+    font-size:40px;
+    text-align:center;
+    margin:20px 10px;
+    padding:10px;
+}
+h1 
+{
+    font-size:87px;
+    color:#85d0c5;
+    font-weight:bold;
+    margin: 60px 0px 0px 0px;
+}
+p
+{
+    margin:10px 0px 10px 0px;
+}
+#pa
+{
+    margin:10px 0px 120px 0px;
+}
+
+#means ,#tohelp ,#embed
+{
+    color: #79cdfd;
+    FONT-WEIGHT: BOLD;
+}
+article ,aside
+{
+    display:inline-block;
+}
+#armWrestling
+{
+    background-image:url(../images/across1.png);
+    width:690px;
+    height:300px;
+    margin:auto;
+}
+#hoverA
+{
+    background-image:url(../images/TechnologicalMeans.png);
+    width: 180px;
+    height: 117px;
+    display:none;
+    position:absolute;
+    margin: 46px 45px 45px 30px;
+}
+#means:hover #hoverA
+{
+    color:red;
+    margin-bottom:100PX;
+    display:block;
+    position:absolute;
+}
+#hoverB
+{
+    background-image:url('../images/Mediation1.png');
+    width: 288px;
+    height: 117px;
+    display:none;
+    position:absolute;
+    margin: 7px 274px 45px 30px;
+}
+#tohelp:hover #hoverB
+{
+    color:red;
+    margin-bottom:100PX;
+    display:block;
+    position:absolute;
+}
+#hoverC {
+    background-image: url('../images/Knowledge1.png');
+    width: 240px;
+    height: 117px;
+    display:none;
+    position:absolute;
+    margin: 6px 621px 45px 30px;
+}
+#embed:hover #hoverC
+{
+    color:red;
+    margin-bottom:100PX;
+    display:block;
+    position:absolute;
+}
+
+
+h2
+{
+    color: #79cdfd;
+    FONT-WEIGHT: BOLD;
+    font-size: 56px;
+    text-align: center;
+}
+section {
+    background-color: #e0e0e0;
+    width: 400px;
+    height: 200px;
+    color:#e0e0e0;
+    font-size: 21px;
+    margin: 0px 21px 0px 10px;
+
+
+    display:inline-block;
+    border: 2PX solid #55beaf;
+    /*margin:10px 10px 10px 10px;*/
+    padding:10px;
+}
+section:hover
+{
+    color:black;
+}
+div> a{
+    background-color: #79cdfd;
+    color: white;
+    FONT-WEIGHT: BOLD;
+    font-size: 34px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 190px;
+    padding: 5px;
+}
+aside
+{
+    background-color: #55beaf;
+    color: white;
+    font-size: 23px;
+    width: 209px;
+    border: 2PX solid white;
+    display: block;
+    float: left;
+    margin: 58px 669px 10px 10px;
+    position: absolute;
+    color:black;
+}
+#Links
+{
+    margin: 50px 10px 260px 10px;
+}
+aside>p
+{
+    font-size:23px;
+    font-weight:bold;
+    color:white;
+}
+#SelectDegreeType
+{
+    display:block;
+}
+article> a
+{
+    width: 400px;
+    height: 200px;
+    margin: 0px 19px 0px 10px;
+    display:inline-block;
+}
+#sec1
+{
+    display:inline-block;
+    position:absolute;
+   
+}
+#sec2
+{
+    display:inline-block;
+    position:absolute;
+   
+}
