@@ -1,0 +1,299 @@
+body 
+{
+direction:rtl;
+}
+#container
+{
+width:960px;
+margin:0 auto;
+background-image:url(../images/White1.png);
+background-size:contain;
+padding: 80px 100px 80px 100px;
+    font-size: 19px;
+}
+
+h1, h2
+{
+text-align:center;
+margin-bottom:20px;
+display:block;
+margin: 0 auto;
+}
+h1
+{
+font-size:24pt;
+margin-top: 30px;
+padding: 0px 0px 10px 0px;
+}
+h2
+{
+font-size:16pt;
+}
+h3
+{
+font-size:15pt;
+margin-top:20px;
+margin-right: 104px;
+padding: 0px 0px 10px 0px;
+}
+header
+{
+margin-bottom: 50px;
+}
+
+p
+{
+width:756px;
+padding: 0px 0px 10px 0px;
+margin: 0 auto;
+}
+
+
+#contact p
+{
+width:130px;
+}
+
+
+
+
+
+
+#myB
+{
+    display: inline-block;
+    position: absolute;
+    margin: -246px 431px 0px 0px;
+    color: white;
+    width: 80px;
+    text-decoration:underline;
+    font-size:13pt;
+}
+#myName
+{
+    font-size:60px;
+    margin-top: -40px;
+    color:#ff982b;
+}
+
+
+
+figure#myPortfolio
+{
+    width: 320px;
+    height: 530px;
+    background-image:url(../images/66.png);
+    background-size:auto;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    background-position: -305px -80px;
+}
+figure#myPortfolio:hover{
+    background-position: -55px -80px;
+}
+
+
+
+
+
+
+
+figure#Solomon
+{
+	width:201px;
+	height: 251px;
+	background-image:url(../images/Solomon.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+}
+figure#goel
+{
+	width:201px;
+	height: 215px;
+	background-image:url(../images/goel.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+}
+figure#TheKing
+{
+    width: 960px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+figure#gili
+{
+    width: 960px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#music
+{
+    margin-right: 328px;
+}
+
+
+
+
+figure#realize
+{
+    width: 960px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+#video
+{
+    width: 300px;
+    height: 168px;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+
+#contact 
+{
+   display:inline-block;
+   position:absolute;
+   margin-right: 210px;
+   margin-top: -30px;
+}
+
+
+
+
+ #email
+{
+    background-image:url(../images/7mail.jpg);
+    width:40px;
+    height:40px;
+    display:inline-block;
+
+-webkit-transition: all 1ms ease;
+-moz-transition: all 1ms ease;
+-ms-transition: all 1ms ease;
+-o-transition: all 1ms ease;
+transition: all 1ms ease;
+}
+ #email:hover
+ {
+     background-position:right;
+ }
+
+
+  #facebook
+{
+    background-image:url(../images/2facebook.jpg);
+    width:40px;
+    height:40px;
+    display:inline-block;
+
+    -webkit-transition: all 1ms ease;
+-moz-transition: all 1ms ease;
+-ms-transition: all 1ms ease;
+-o-transition: all 1ms ease;
+transition: all 1ms ease;
+}
+   #facebook:hover
+ {
+     background-position:right;
+ }
+
+
+
+
+
+#main
+{
+/*margin: 0 auto;*/
+display:inline-block;
+}
+
+ #main ul {
+    list-style: none;
+    width: 590px; 
+    height:40px;
+}
+
+#main ul li {
+        display: inline-block;
+        float: right;
+    }
+
+#main ul li a {
+            display: block;
+            background-color: #c68fbd;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 140px;
+            height: 30px;
+            Padding-top: 10px;
+            border:1PX solid white; 
+        }
+
+
+
+#main ul li a:hover 
+{
+    background-color: #a169d2;
+}
+#main ul li a:active 
+{
+    background-color:  #623688;
+}
+#main ul li a:active
+{
+    background-color:darkmagenta;
+}
+
+#main ul li .active
+{
+    background-color:darkmagenta;
+}
+
+
+#breadCrumbs{
+            clear:both;
+            margin: 15px 0;
+            display:block;
+        }
+
+#breadCrumbs  ul li
+        {
+            display:inline-block;
+        }
+        
+#breadCrumbs ul li:after {
+            content: " > ";
+        }
+        
+#breadCrumbs ul li:last-child:after
+        { 
+           content:"" ;
+        }
+        
+ #breadCrumbs a{
+            text-decoration:none;
+            color:deeppink;
+        }
+
+
+
+
+
+
